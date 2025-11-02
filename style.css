@@ -1,0 +1,802 @@
+html
+{scroll-behavior: smooth;}
+
+*
+{margin:0px;
+font-family:Arial, Helvetica, sans-serif;
+border:border-box;}
+
+body
+{background-color:#CCCCCC;}
+
+/* START OF NAV BAR -------------------------------------------------------------------- */
+
+.navbar
+{height:60px;
+ color:#232F3E;
+ background:#0F1111;
+ font:14px Arial,sans-serif;
+ position:static;
+ display:flex;
+ align-items:center;}
+
+.border 
+{border:1.5px solid transparent;}
+
+.border:hover
+{border:1.5px solid white;
+ border-radius:3px;} 
+
+.nav-logo
+{height:55px;
+ width:120px;
+ justify-items:center;
+ align-content:center;
+ margin-left:7px} 
+
+.logo
+{background-image:url(Amazon_logo.png);
+ height:35px;
+ width:110px;
+ background-size:cover;}
+
+.nav-address
+{height:55px;
+ width:100px;
+ justify-items:center;
+ align-content:center;
+ margin-right:10px} 
+
+.icon
+{display:flex;
+ color:#FFFFFF;
+ font-size:1rem;
+ margin-left:-20px;
+ font-weight:bold;}
+
+.first-line
+{color:#CCCCCC;
+ font-size:0.85rem;
+ margin-left:26px;}
+
+.nav-search
+{display:flex;
+ border-radius:9px;
+ height:45px;
+ width:900px;
+ border:3px solid transparent;}
+
+.nav-search:hover
+{border:3px solid #f8bd19;} 
+
+.search-1
+{border-top-left-radius:6px;
+ border-bottom-left-radius:6px;
+ width:50px;
+ background-color:#CCCCCC;
+ border:none;
+ border:3px solid transparent;
+ transform: none;}
+
+.search-2
+{width:850px;
+ border:none;
+ font-size:17px}
+
+.nav-search-icon 
+{display:flex;
+ width:50px;
+ border-top-right-radius:6px;
+ border-bottom-right-radius:6px;   
+ background-color:#f8bd19;
+ font-size:25px;
+ align-items:center;
+ justify-content:center;}
+
+.nav-country
+{display:flex;
+ height:55px;
+ width:63px;
+ justify-items:center;
+ align-content:center;
+ margin-left:15px;
+ align-items:center;}
+
+.america-flag
+{background-image:url(america-flag.png);
+ height:18px;
+ width:28px;
+ background-size:cover;} 
+
+.language
+{height:40px;
+ width:38px;
+ background-color:#0F1111;
+ color:#FFFFFF;
+ font-weight:bold;
+ border:none;} 
+
+.nav-sign
+{height:55px;
+ width:140px;
+ margin:2px;
+ color:#FFFFFF;
+ align-content:center;}
+
+.nav-return
+{height:55px;
+ width:80px;
+ margin:2px;
+ color:#FFFFFF;
+ align-content:center;}
+ 
+.return1
+ {font-size:13px;
+ margin-left:8px;}
+
+.return2
+{font-size:15px;
+ font-weight:550;
+ margin-left:8px;} 
+
+.nav-cart
+{display:flex;
+ height:55px;
+ width:80px;
+ margin:2px;
+ color:#FFFFFF;
+ justify-content:center;
+ align-items:center} 
+
+.cart
+{margin-top:15px;
+ font-size:15px;
+ font-weight:550;}
+
+/* END OF NAV BAR ---------------------------------------------------------------------- */
+
+/* START OF TOOLBAR -------------------------------------------------------------------- */
+
+.toolbar
+{height:40px;
+ background:#232F3E;
+ font:14px Arial,sans-serif;
+ position:static;
+ display:flex;
+ align-items:center;}
+
+.toolbar-item
+{display:flex;
+ height:35px;
+ width:100px;
+ margin:5px;
+ color:#FFFFFF;
+ justify-content:center;
+ align-items:center;}
+
+.item-link
+{text-decoration:none;
+ color:#FFFFFF;
+ font-weight:400;
+ font-size:15px;} 
+                                                                                       
+/* END OF TOOLBAR ---------------------------------------------------------------------- */ 
+
+/* START OF MAIN ----------------------------------------------------------------------- */ 
+.main
+{height:440px;
+ width:1496px;
+ background-image:url(hero.jpg);
+ background-size:cover;
+ margin-left:12px;
+ margin-right:12px;
+ z-index:-1;}
+
+.main-1
+{height:45px;
+ width:1450px;
+ background-color:#F5F6F6;
+ margin-left:35px;
+ margin-right:35px;
+ margin-top:-190px;}
+
+.main-2
+{height:400px;
+ width:1450px;
+ background-color:transparent;
+ margin-left:35px;
+ margin-right:35px;
+ margin-top:25px;
+ display:flex;
+ justify-content:space-between;}
+ 
+.main-2-in
+{height:400px;
+ width:343.75px;
+ background-color:#F5F6F6;}
+ 
+.main-3
+{height:270px;
+ width:1450px;
+ background-color:#F5F6F6;
+ margin-left:35px;
+ margin-right:35px;
+ margin-top:25px;
+ padding-top:1px;}
+ 
+.main-div-text
+{margin-top:20px;
+ margin-left:20px;
+ font-weight:bold;
+ font-size:20px;} 
+/* END OF MAIN ------------------------------------------------------------------------- */ 
+
+/* START OF MAIN IMAGE------------------------------------------------------------------ */
+#line211
+{background-image:url(line2-image/2-1-1.jpg);
+ background-size:cover;}
+#line212
+{background-image:url(line2-image/2-1-2.jpg);
+ background-size:cover;}
+#line213
+{background-image:url(line2-image/2-1-3.jpg);
+ background-size:cover;}
+#line214
+{background-image:url(line2-image/2-1-4.jpg);
+ background-size:cover;}   
+#line221
+{background-image:url(line2-image/2-2-1.jpg);
+ background-size:cover;}
+#line222
+{background-image:url(line2-image/2-2-2.jpg);
+ background-size:cover;}
+#line223
+{background-image:url(line2-image/2-2-3.jpg);
+ background-size:cover;}
+#line224
+{background-image:url(line2-image/2-2-4.jpg);
+ background-size:cover;} 
+#line231
+{background-image:url(line2-image/2-3-1.jpg);
+ background-size:cover;} 
+#line241
+{background-image:url(line2-image/2-4-1.jpg);
+ background-size:cover;}
+#line242
+{background-image:url(line2-image/2-4-2.jpg);
+ background-size:cover;}
+#line243
+{background-image:url(line2-image/2-4-3.jpg);
+ background-size:cover;}
+#line244
+{background-image:url(line2-image/2-4-4.jpg);
+ background-size:cover;}
+ 
+#line311
+{background-image:url(line2-image/3-1-1.jpg);
+ background-size:cover;}
+#line312
+{background-image:url(line2-image/3-1-2.jpg);
+ background-size:cover;}
+#line313
+{background-image:url(line2-image/3-1-3.jpg);
+ background-size:cover;}
+#line314
+{background-image:url(line2-image/3-1-4.jpg);
+ background-size:cover;}   
+#line321
+{background-image:url(line2-image/3-2-1.jpg);
+ background-size:cover;}
+#line322
+{background-image:url(line2-image/3-2-2.jpg);
+ background-size:cover;}
+#line323
+{background-image:url(line2-image/3-2-3.jpg);
+ background-size:cover;}
+#line324
+{background-image:url(line2-image/3-2-4.jpg);
+ background-size:cover;} 
+#line331
+{background-image:url(line2-image/3-3-1.jpg);
+ background-size:cover;} 
+#line341
+{background-image:url(line2-image/3-4-1.jpg);
+ background-size:cover;}
+#line342
+{background-image:url(line2-image/3-4-2.jpg);
+ background-size:cover;}
+#line343
+{background-image:url(line2-image/3-4-3.jpg);
+ background-size:cover;}
+#line344
+{background-image:url(line2-image/3-4-4.jpg);
+ background-size:cover;}
+ 
+#line41
+{background-image:url(line2-image/4-1.jpg);
+ background-size:cover;}
+#line42
+{background-image:url(line2-image/4-2.jpg);
+ background-size:cover;}
+#line43
+{background-image:url(line2-image/4-3.jpg);
+ background-size:cover;}
+#line44
+{background-image:url(line2-image/4-4.jpg);
+ background-size:cover;}
+#line45
+{background-image:url(line2-image/4-5.jpg);
+ background-size:cover;}
+#line46
+{background-image:url(line2-image/4-6.jpg);
+ background-size:cover;}
+#line47
+{background-image:url(line2-image/4-7.jpg);
+ background-size:cover;} 
+
+#line51
+{background-image:url(line2-image/5-1.jpg);
+ background-size:cover;}
+#line52
+{background-image:url(line2-image/5-2.jpg);
+ background-size:cover;}
+#line53
+{background-image:url(line2-image/5-3.jpg);
+ background-size:cover;}
+#line54
+{background-image:url(line2-image/5-4.jpg);
+ background-size:cover;}
+#line55
+{background-image:url(line2-image/5-5.jpg);
+ background-size:cover;}
+#line56
+{background-image:url(line2-image/5-6.jpg);
+ background-size:cover;}
+#line57
+{background-image:url(line2-image/5-7.jpg);
+ background-size:cover;}
+#line58
+{background-image:url(line2-image/5-8.jpg);
+ background-size:cover;}  
+
+#line611
+{background-image:url(line2-image/6-1-1.jpg);
+ background-size:cover;}
+#line612
+{background-image:url(line2-image/6-1-2.jpg);
+ background-size:cover;}
+#line613
+{background-image:url(line2-image/6-1-3.jpg);
+ background-size:cover;}
+#line614
+{background-image:url(line2-image/6-1-4.jpg);
+ background-size:cover;}   
+#line621
+{background-image:url(line2-image/6-2-1.jpg);
+ background-size:cover;}
+#line622
+{background-image:url(line2-image/6-2-2.jpg);
+ background-size:cover;}
+#line623
+{background-image:url(line2-image/6-2-3.jpg);
+ background-size:cover;}
+#line624
+{background-image:url(line2-image/6-2-4.jpg);
+ background-size:cover;} 
+#line631
+{background-image:url(line2-image/6-3-1.jpg);
+ background-size:cover;}
+#line632
+{background-image:url(line2-image/6-3-2.jpg);
+ background-size:cover;}
+#line633
+{background-image:url(line2-image/6-3-3.jpg);
+ background-size:cover;}
+#line634
+{background-image:url(line2-image/6-3-4.jpg);
+ background-size:cover;}    
+#line641
+{background-image:url(line2-image/6-4-1.jpg);
+ background-size:cover;}
+#line642
+{background-image:url(line2-image/6-4-2.jpg);
+ background-size:cover;}
+#line643
+{background-image:url(line2-image/6-4-3.jpg);
+ background-size:cover;}
+#line644
+{background-image:url(line2-image/6-4-4.jpg);
+ background-size:cover;}
+ 
+#line71
+{background-image:url(line2-image/7-1.jpg);
+ background-size:cover;}
+#line72
+{background-image:url(line2-image/7-2.jpg);
+ background-size:cover;}
+#line73
+{background-image:url(line2-image/7-3.jpg);
+ background-size:cover;}
+#line74
+{background-image:url(line2-image/7-4.jpg);
+ background-size:cover;}
+#line75
+{background-image:url(line2-image/7-5.jpg);
+ background-size:cover;}
+#line76
+{background-image:url(line2-image/7-6.jpg);
+ background-size:cover;}
+#line77
+{background-image:url(line2-image/7-7.jpg);
+ background-size:cover;}
+#line78
+{background-image:url(line2-image/7-8.jpg);
+ background-size:cover;}
+#line79
+{background-image:url(line2-image/7-9.jpg);
+ background-size:cover;} 
+ 
+#line81
+{background-image:url(line2-image/8-1.jpg);
+ background-size:cover;}
+#line82
+{background-image:url(line2-image/8-2.jpg);
+ background-size:cover;}
+#line83
+{background-image:url(line2-image/8-3.jpg);
+ background-size:cover;}
+#line84
+{background-image:url(line2-image/8-4.jpg);
+ background-size:cover;}
+#line85
+{background-image:url(line2-image/8-5.jpg);
+ background-size:cover;}
+#line86
+{background-image:url(line2-image/8-6.jpg);
+ background-size:cover;}
+#line87
+{background-image:url(line2-image/8-7.jpg);
+ background-size:cover;}
+#line88
+{background-image:url(line2-image/8-8.jpg);
+ background-size:cover;} 
+
+#line911
+{background-image:url(line2-image/9-1-1.jpg);
+ background-size:cover;}
+#line912
+{background-image:url(line2-image/9-1-2.jpg);
+ background-size:cover;}
+#line913
+{background-image:url(line2-image/9-1-3.jpg);
+ background-size:cover;}
+#line914
+{background-image:url(line2-image/9-1-4.jpg);
+ background-size:cover;}   
+#line921
+{background-image:url(line2-image/9-2-1.jpg);
+ background-size:cover;}
+#line922
+{background-image:url(line2-image/9-2-2.jpg);
+ background-size:cover;}
+#line923
+{background-image:url(line2-image/9-2-3.jpg);
+ background-size:cover;}
+#line924
+{background-image:url(line2-image/9-2-4.jpg);
+ background-size:cover;} 
+#line931
+{background-image:url(line2-image/9-3-1.jpg);
+ background-size:cover;}
+#line932
+{background-image:url(line2-image/9-3-2.jpg);
+ background-size:cover;}
+#line933
+{background-image:url(line2-image/9-3-3.jpg);
+ background-size:cover;}
+#line934
+{background-image:url(line2-image/9-3-4.jpg);
+ background-size:cover;}    
+#line941
+{background-image:url(line2-image/9-4-1.jpg);
+ background-size:cover;}
+#line942
+{background-image:url(line2-image/9-4-2.jpg);
+ background-size:cover;}
+#line943
+{background-image:url(line2-image/9-4-3.jpg);
+ background-size:cover;}
+#line944
+{background-image:url(line2-image/9-4-4.jpg);
+ background-size:cover;}
+ 
+#line101
+{background-image:url(line2-image/10-1.jpg);
+ background-size:cover;}
+#line102
+{background-image:url(line2-image/10-2.jpg);
+ background-size:cover;}
+#line103
+{background-image:url(line2-image/10-3.jpg);
+ background-size:cover;}
+#line104
+{background-image:url(line2-image/10-4.jpg);
+ background-size:cover;}
+#line105
+{background-image:url(line2-image/10-5.jpg);
+ background-size:cover;}
+#line106
+{background-image:url(line2-image/10-6.jpg);
+ background-size:cover;}
+#line107
+{background-image:url(line2-image/10-7.jpg);
+ background-size:cover;} 
+
+#line111
+{background-image:url(line2-image/11-1.jpg);
+ background-size:cover;}
+#line112
+{background-image:url(line2-image/11-2.jpg);
+ background-size:cover;}
+#line113
+{background-image:url(line2-image/11-3.jpg);
+ background-size:cover;}
+#line114
+{background-image:url(line2-image/11-4.jpg);
+ background-size:cover;}
+#line115
+{background-image:url(line2-image/11-5.jpg);
+ background-size:cover;}
+#line116
+{background-image:url(line2-image/11-6.jpg);
+ background-size:cover;}
+#line117
+{background-image:url(line2-image/11-7.jpg);
+ background-size:cover;}
+#line118
+{background-image:url(line2-image/11-8.jpg);
+ background-size:cover;} 
+
+#line1211
+{background-image:url(line2-image/12-1-1.jpg);
+ background-size:cover;}
+#line1212
+{background-image:url(line2-image/12-1-2.jpg);
+ background-size:cover;}
+#line1213
+{background-image:url(line2-image/12-1-3.jpg);
+ background-size:cover;}
+#line1214
+{background-image:url(line2-image/12-1-4.jpg);
+ background-size:cover;}   
+#line1221
+{background-image:url(line2-image/12-2-1.jpg);
+ background-size:cover;}
+#line1222
+{background-image:url(line2-image/12-2-2.jpg);
+ background-size:cover;}
+#line1223
+{background-image:url(line2-image/12-2-3.jpg);
+ background-size:cover;}
+#line1224
+{background-image:url(line2-image/12-2-4.jpg);
+ background-size:cover;} 
+#line1231
+{background-image:url(line2-image/12-3-1.jpg);
+ background-size:cover;}
+#line1232
+{background-image:url(line2-image/12-3-2.jpg);
+ background-size:cover;}
+#line1233
+{background-image:url(line2-image/12-3-3.jpg);
+ background-size:cover;}
+#line1234
+{background-image:url(line2-image/12-3-4.jpg);
+ background-size:cover;}    
+#line1241
+{background-image:url(line2-image/12-4-1.jpg);
+ background-size:cover;}
+#line1242
+{background-image:url(line2-image/12-4-2.jpg);
+ background-size:cover;}
+#line1243
+{background-image:url(line2-image/12-4-3.jpg);
+ background-size:cover;}
+#line1244
+{background-image:url(line2-image/12-4-4.jpg);
+ background-size:cover;} 
+
+#line131
+{background-image:url(line2-image/13-1.jpg);
+ background-size:cover;}
+#line132
+{background-image:url(line2-image/13-2.jpg);
+ background-size:cover;}
+#line133
+{background-image:url(line2-image/13-3.jpg);
+ background-size:cover;}
+#line134
+{background-image:url(line2-image/13-4.jpg);
+ background-size:cover;}
+#line135
+{background-image:url(line2-image/13-5.jpg);
+ background-size:cover;}
+#line136
+{background-image:url(line2-image/13-6.jpg);
+ background-size:cover;}
+#line137
+{background-image:url(line2-image/13-7.jpg);
+ background-size:cover;}
+#line138
+{background-image:url(line2-image/13-8.jpg);
+ background-size:cover;}
+#line139
+{background-image:url(line2-image/13-9.jpg);
+ background-size:cover;}         
+
+/* END OF MAIN IMAGE-------------------------------------------------------------------- */
+
+/* START OF SIGN IN -------------------------------------------------------------------- */
+.sign-in
+{height:190px;
+ margin-top:25px;   
+ background-color:#FFFFFF;
+ display:flex;
+ justify-content:center;
+ align-items:center;}
+
+.inner-sign-in
+{height:150px;
+ width:1800px;
+ /* display:flex;
+ justify-content:center;
+ align-items:center;    */
+ background-color:#FFFFFF;
+ border:1px solid #CCCCCC;}
+
+#sign-in-div
+{height:35px; 
+ width:220px; 
+ border-radius:30px; 
+ background-color:#ffce12; 
+ display:flex; 
+ align-items:center; 
+ justify-content:center;
+ margin-left:650px;
+ margin-top:15px;} 
+/* END OF SIGN IN ---------------------------------------------------------------------- */
+
+/*  START OF BACK TO TOP --------------------------------------------------------------- */
+
+.back-to-top
+{height:60px;
+ background-color:#2f3e52;
+ display:flex;
+ justify-content:center;
+ align-items:center;}
+
+.back-to-top:hover
+{background-color:#42556d;} 
+
+/*  END OF BACK TO TOP ----------------------------------------------------------------- */
+
+/* START OF BOTTOM BAR 1-o ------------------------------------------------------------- */
+
+.bottom-bar1-o
+{height:460px; 
+ background-color:#232F3E;    
+ position:relative;
+ justify-content:center;
+ display:flex;}
+
+.bottom1-o-item
+{height:300px;
+ width:180px;
+ margin:40px;} 
+
+.b1-text1
+{color:#FFFFFF;
+ font-size:15px;
+ font-weight:bold;
+ margin-bottom:10px:} 
+
+.b1-text1:hover
+{text-decoration:underline;} 
+
+.b1-text2
+{color:#CCCCCC;
+ font-size:15px;
+ margin-top:8px;}
+
+.b1-text2:hover
+{text-decoration:underline;} 
+
+/* END OF BOTTOM BAR 1-o --------------------------------------------------------------- */
+
+/* START OF BOTTOM BAR ----------------------------------------------------------------- */
+
+.bottom-bar
+{height:100px;
+ background:#232F3E;
+ display:flex;
+ position:relative;
+ align-items:center;
+ justify-content:center;
+ margin-top:0.4px;}
+
+.bottom-bar-item
+{display:flex;
+ height:35px;
+ width:160px;
+ margin:5px;
+ color:#CCCCCC;
+ justify-content:center;
+ align-items:center;
+ border:0.5px solid #CCCCCC;
+ border-radius:3px;} 
+
+.america-flag2-o
+{background-image:url(america-flag.png);
+ height:15px;
+ width:30px;
+ background-size:cover;
+ margin-right:10px} 
+
+.language2-o
+{height:35px;
+ width:120px;
+ background-color:#232F3E;
+ color:#CCCCCC;
+ font-weight:bold;
+ border:none;} 
+
+ .bottom-logo
+{background-image:url(Amazon_logo.png);
+ height:25px;
+ width:90px;
+ background-size:cover;
+ margin-right:100px;}
+
+/* END OF BOTTOM BAR ------------------------------------------------------------------- */
+
+/* START OF BOTTOM BAR 2.o ------------------------------------------------------------- */
+
+.bottom-bar2-o
+{height:460px;
+ background:#131A22;
+ position:relative;
+ align-items:center;
+ justify-content:center;
+ border:1px solid #131A22;} 
+
+.group-item
+{height:85px;
+ display:flex;
+ align-items:center;
+ justify-content:center;} 
+
+.bottom2-o-item
+{height:60px;
+ width:106px;
+ margin:15px;} 
+
+.b-text1
+{color:#FFFFFF;
+ font-size:12px;} 
+
+.b-text1:hover
+{text-decoration:underline;} 
+
+.b-text2
+{color:#CCCCCC;
+ font-size:12px}
+
+.b-text2:hover
+{text-decoration:underline;}  
+ 
+.second-last-line
+{height:20px;
+ margin:8px;
+ font-size:12px;}
+                                                                                       
+/* END OF BOTTOM BAR 2.o --------------------------------------------------------------- */ 
