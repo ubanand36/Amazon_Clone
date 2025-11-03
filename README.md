@@ -31,7 +31,7 @@ It displays **Main website, Login page, and different section pages** in a neat 
 ├── 🖼️ Amazon_logo.png # Main website logo
 ├── 🖼️ america-flag.png # america flag photo
 ├── 🖼️ hero.jpg # Hero image of the website
-└──
+└── 🖼️ line2-image # all the images of the website
 ```
 
 ## 💻 How to Use
