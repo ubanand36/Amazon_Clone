@@ -800,3 +800,16 @@ body
  font-size:12px;}
                                                                                        
 /* END OF BOTTOM BAR 2.o --------------------------------------------------------------- */ 
+
+/* START OF BLACK FRIDAY --------------------------------------------------------------- */
+.black-friday
+{background-image:url(line2-image/black-friday.jpg);
+ height:150px;
+ /* width:110px; */
+ background-size:cover;
+ margin-left:10px;
+ margin-right:10px;}
+
+.tool2:hover
+{border-bottom:2px solid #232F3E;} 
+/* END OF BLACK FRIDAY ---------------------------------------------------------------- */ 
