@@ -813,3 +813,30 @@ body
 .tool2:hover
 {border-bottom:2px solid #232F3E;} 
 /* END OF BLACK FRIDAY ---------------------------------------------------------------- */ 
+
+/* START OF STICKY DIV ---------------------------------------------------------------- */ 
+.sticky
+{height:400px;
+ width:220px;
+ border:2px solid yellow;    
+ margin-left:10px;
+ margin-top:10px;
+ position:sticky;
+}
+/* END OF STICKY DIV ------------------------------------------------------------------ */ 
+
+/* START OF IMAGES -------------------------------------------------------------------- */ 
+.todaydealimages
+{background-color:#F5F6F6;
+ margin-left:10px;
+ margin-top:10px;
+ height:370px;
+ width:1260px;
+ display:flex;}
+
+.todaydealimages-2 
+{height:200px;
+ width:190px;
+ background-color:yellow;
+ margin-left:17px;}
+/* END OF IMAGES ---------------------------------------------------------------------- */ 
